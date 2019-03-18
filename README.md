@@ -1,5 +1,4 @@
-# Communication-WebSite
-一个根据psd设计图完成的通信商PC官网
+
 
 <h1>根据PSD设计图实现的</h1>
 <p>主要是布局方面用了很多心思 如</p>
