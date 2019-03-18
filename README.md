@@ -9,4 +9,4 @@
   <li>如何使用户缩小页面时，优先缩小空白区域；设置了主要内容区域自适应居中和最小宽度。</li>
 </ul>
 <p>设计图如下：</p>
-<img src="https://s2.ax1x.com/2019/03/18/AmYKPJ.png"/>
+<img src="https://s2.ax1x.com/2019/03/18/AmYKPJ.md.png" height="100%" />
