@@ -10,9 +10,88 @@ body{
   @media screen and (max-width:1200px){
     font-size:12px;
   }
-  //@media screen and (max-width:900px){
-  //  font-size:11px;
-  //}
+  #contact_nav{
+    width:0;
+    height:0;
+    position: fixed;
+    top:10em;
+    right:10px;
+    z-index: 1000;
+    *{
+      z-index: 1000;
+      position: fixed;
+    }
+
+    img{
+      width:2.5em;
+    }
+    .wx_qrcode,.qq_qrcode,.tel_text{
+      display: none;
+    }
+    div{
+      width:3em;
+      height: 3em;
+      .triangle{
+        width:0;
+        height:0;
+        border-width:5px 0 5px 5px;
+        border-style:solid;
+        border-color:transparent transparent transparent white;
+      }
+      img{
+        width:5em;
+      }
+    }
+    .wx{
+      top:10em;
+      right:2em;
+    }
+    .wx_qrcode{
+      .triangle{
+        top:10.8em;
+        right:5.5em;
+      }
+      img{
+        top:8.8em;
+        right:5.7em;
+      }
+    }
+    .qq{
+      top:15em;
+      right:2em;
+    }
+    .qq_qrcode{
+      .triangle{
+        top:15.8em;
+        right:5.5em;
+      }
+      img{
+        top:13.8em;
+        right:5.7em;
+      }
+    }
+    .tel{
+      top:20em;
+      right:2em;
+    }
+    .tel_text{
+      .triangle{
+        top:20.8em;
+        right:5.5em;
+      }
+      div:last-of-type{
+        top: 20.2em;
+        right: 5.7em;
+        height: 1.8em;
+        width: 10em;
+        text-align: center;
+        line-height: 1.8em;
+        background: white;
+      }
+    }
+  }
+
+
   #head{
     position: absolute;
     top:0;

@@ -9,6 +9,63 @@ body {
   @media screen and (max-width: 1200px) {
     body {
       font-size: 12px; } }
+  body #contact_nav {
+    width: 0;
+    height: 0;
+    position: fixed;
+    top: 10em;
+    right: 10px;
+    z-index: 1000; }
+    body #contact_nav * {
+      z-index: 1000;
+      position: fixed; }
+    body #contact_nav img {
+      width: 2.5em; }
+    body #contact_nav .wx_qrcode, body #contact_nav .qq_qrcode, body #contact_nav .tel_text {
+      display: none; }
+    body #contact_nav div {
+      width: 3em;
+      height: 3em; }
+      body #contact_nav div .triangle {
+        width: 0;
+        height: 0;
+        border-width: 5px 0 5px 5px;
+        border-style: solid;
+        border-color: transparent transparent transparent white; }
+      body #contact_nav div img {
+        width: 5em; }
+    body #contact_nav .wx {
+      top: 10em;
+      right: 2em; }
+    body #contact_nav .wx_qrcode .triangle {
+      top: 10.8em;
+      right: 5.5em; }
+    body #contact_nav .wx_qrcode img {
+      top: 8.8em;
+      right: 5.7em; }
+    body #contact_nav .qq {
+      top: 15em;
+      right: 2em; }
+    body #contact_nav .qq_qrcode .triangle {
+      top: 15.8em;
+      right: 5.5em; }
+    body #contact_nav .qq_qrcode img {
+      top: 13.8em;
+      right: 5.7em; }
+    body #contact_nav .tel {
+      top: 20em;
+      right: 2em; }
+    body #contact_nav .tel_text .triangle {
+      top: 20.8em;
+      right: 5.5em; }
+    body #contact_nav .tel_text div:last-of-type {
+      top: 20.2em;
+      right: 5.7em;
+      height: 1.8em;
+      width: 10em;
+      text-align: center;
+      line-height: 1.8em;
+      background: white; }
   body #head {
     position: absolute;
     top: 0;

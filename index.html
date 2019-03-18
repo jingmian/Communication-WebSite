@@ -9,6 +9,23 @@
     <link rel="stylesheet" href="css/mycss.css">
 </head>
 <body>
+<div id="contact_nav">
+    <div class="wx_qrcode">
+        <div class="triangle"></div>
+        <img src="./image/qrcode_right.png"  alt="">
+    </div>
+    <img src="./image/wx.png" class="wx" onmouseover="img_over('wx_qrcode')" onmouseout="img_out('wx_qrcode')" alt="">
+    <div class="qq_qrcode">
+        <div class="triangle"></div>
+        <img src="./image/qrcode_left.png" alt="">
+    </div>
+    <img src="./image/QQ.png" class="qq" onmouseover="img_over('qq_qrcode')" onmouseout="img_out('qq_qrcode')" alt="">
+    <div class="tel_text">
+        <div class="triangle"></div>
+        <div>tel：400-000-0000</div>
+    </div>
+    <img src="./image/tel_red.png" onmouseover="img_over('tel_text')" onmouseout="img_out('tel_text')" class="tel" alt="">
+</div>
 <div id="head">
 
     <div id="nav">
@@ -274,7 +291,7 @@
     <div class="content">
         <div class="left">
             <p>专注电信渠道互联网化的SaaS平台</p>
-            <p class="tel">400-000-0000</p>
+            <p>400-000-0000</p>
             <p>联系我们：024-000000/024-0000000000<br/>公司地址：xxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
             <p>版权所有：XXXXXXXXXXXXXXXXXXXX</p>
         </div>
@@ -304,6 +321,12 @@
     NewImg.attr('src', NewImg.attr('src').replace('0', '1'))
     // alert();
   })
+    function img_over(t){
+      $("."+t).show();
+    }
+    function img_out(t){
+        $("."+t).hide();
+    }
 </script>
 </body>
 </html>
